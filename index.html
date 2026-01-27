@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>HealthCare - Pré-admission</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  
+  <header class="header">
+    <h1><i class="ri-nurse-fill"></i><span>HealthCare</span> </h1>
+     <div class="header-supprime"> 
+      <input type="text" name="chercher" placeholder="Rechercher...     " > 
+      
+      <div class="icon-dark"><i id="ri" class="ri-sun-line"></i></div>
+    </div> 
+  </header>
+
+  <main>
+  <section class="section-form">
+    <div class="form-All">
+
+    
+
+
+      <div class="div-h3">
+            
+            <h3>Formulaire de Pré-admission</h3>
+        </div>
+
+    <form action="#" id="form">
+
+
+      <div class="LG">
+        <div class="elemnt-form">
+          <label for="nom">Nom :</label>
+          <input type="text" name="nom" id="nom">
+        </div>
+
+        <div class="elemnt-form">
+          <label for="prn">Prénom :</label>
+          <input type="text" id="prn" name="prenom">
+        </div>
+      </div>
+
+
+
+      <div class="LG">
+        <div class="elemnt-form">
+          <label for="tl">Téléphone :</label>
+          <input type="tel" name="phone" id="tl">
+        </div>
+
+        <div class="elemnt-form">
+          <label for="mail">Email :</label>
+          <input type="email" name="email" id="mail">
+        </div>
+      </div>
+
+
+      <div class="LG">
+
+        <div class="elemnt-form">
+          <label for="motif">Motif :</label>
+          <input type="text" name="motif" id="motif">
+        </div>
+
+        <div class="elemnt-form">
+
+          <label for="dt">Date souhaitée:</label>
+          <input type="date" name="date" id="dt">
+        </div>
+
+      </div>
+
+
+      <input type="submit" id="btn" value="Ajouter la demande"/>
+    </form>
+      <div class="msg">
+            <p id="message">demande ajoutée avec succès</p>
+     </div>
+ </div>
+
+  </section>
+
+ 
+  <section class="tableau">
+    <h3>Liste des Demandes</h3>
+    <div class="TotalDemande">
+        <i class="ri-dossier-line"></i>
+
+        <p>10 demandes au total</p>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Prénom</th>
+          <th>Téléphone</th>
+          <th>Email</th>
+          <th>Motif</th>
+          <th>Date souhaitée</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr>
+          <td>S</td>
+          <td>A</td>
+          <td>L</td>
+          <td>I</td>
+          <td>M</td>
+          <td>A</td>
+          <td>.</td>
+        </tr>
+      </tbody >
+    </table>
+
+    <div class="pagination">
+      <button id="precedent">Précédent</button>
+      <span id="pageAceuil">1</span>
+      <button  id="next">Suivant</button>
+    </div>
+  </section>
+  </main>
+
+</body>
+</html>
