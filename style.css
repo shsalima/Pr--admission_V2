@@ -256,6 +256,11 @@ th {
      width: 50px;
     height: 40px;
 }
+.ri-delete-bin-line{
+    color: red;
+    font-size: 20px;
+ 
+}
 
 
 .pagination {

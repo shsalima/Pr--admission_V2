@@ -15,7 +15,7 @@
   <header class="header">
     <h1><i class="ri-nurse-fill"></i><span>HealthCare</span> </h1>
      <div class="header-supprime"> 
-      <input type="text" name="chercher" placeholder="Rechercher...     " > 
+      <input id="chercher" type="text" name="chercher" placeholder="Rechercher...     " > 
       
       <div class="icon-dark"><i id="ri" class="ri-sun-line"></i></div>
     </div> 
@@ -82,7 +82,7 @@
       <input type="submit" id="btn" value="Ajouter la demande"/>
     </form>
       <div class="msg">
-            <p id="message">demande ajoutée avec succès</p>
+            <p id="message"></p>
      </div>
  </div>
 
@@ -94,7 +94,7 @@
     <div class="TotalDemande">
         <i class="ri-dossier-line"></i>
 
-        <p>10 demandes au total</p>
+       <span id="comptureDM"></span><p>demandes au total</p>
     </div>
 
     <table>
