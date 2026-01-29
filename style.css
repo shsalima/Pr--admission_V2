@@ -7,8 +7,6 @@ body {
     margin: 0px;
     padding: 0px;
   background: white;
-  /* padding: 20px; */
-  /* width: 100%; */
 }
 
 
@@ -256,7 +254,7 @@ th {
      width: 50px;
     height: 40px;
 }
-.ri-delete-bin-line{
+.ri-user-minus-fill{
     color: red;
     font-size: 20px;
  
@@ -286,3 +284,167 @@ th {
   border: none;
   font-size: 15px;
 }
+
+
+/* pour dark mode */
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+
+body.dark .header {
+  background-color: #1e1e1e;
+}
+
+body.dark header h1,
+body.dark h3,
+body.dark label,
+body.dark .TotalDemande {
+  color: #90caf9;
+}
+
+
+body.dark input {
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #90caf9;
+}
+
+
+body.dark .section-form,
+body.dark .tableau,
+body.dark .form-All,
+body.dark .msg {
+  background-color: #1e1e1e;
+  border-color: #90caf9;
+}
+
+
+body.dark th {
+  background-color: #263238;
+  color: #90caf9;
+}
+
+body.dark td {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+
+body.dark #btn,
+body.dark .pagination button,
+body.dark #pageAceuil {
+  background-color: #1565C0;
+}
+
+
+body.dark .icon-dark {
+  background-color: #1e1e1e;
+  border-color: #90caf9;
+}
+
+body.dark #ri {
+  color: #90caf9;
+}
+
+
+/* phone */
+@media (max-width: 767px) {
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  header h1 .ri-nurse-fill {
+    font-size: 36px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  header .header-supprime {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header .header-supprime input {
+    width: 100%;
+  }
+
+  .LG {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .elemnt-form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .elemnt-form input {
+    width: 100%;
+  }
+
+  #btn {
+    width: 100%;
+  }
+
+  .tableau {
+    padding: 10px;
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 700px;
+  }
+
+  .pagination {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
+
+
+
+/* pour tablete */
+@media (min-width:768px) and ( max-width: 992px) {
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  header h1 .ri-nurse-fill {
+    font-size: 45px;
+  }
+
+  .form-All {
+    width: 95%;
+  }
+
+  .LG {
+    flex-direction: column;
+  }
+
+  .elemnt-form input {
+    width: 80%;
+  }
+
+  #btn {
+    width: 80%;
+  }
+
+  .tableau {
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 800px;
+  }
+}
+
