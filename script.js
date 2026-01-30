@@ -153,6 +153,7 @@ darkBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 
   if (document.body.classList.contains("dark")) {
+    // <i class="ri-moon-line"></i>
     icon.className = "ri-moon-line";
   } else {
     icon.className = "ri-sun-line";
